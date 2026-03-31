@@ -34,7 +34,7 @@
 * [FAQ テンプレート](faq-tenpurto.md)
 * [ダウングレードや支払いサイクルの変更はすぐに反映されますか？](wipdaungurdoyaisaikurunohasugunisaremasuka.md)
 * [料金は従量課金（ユーザー数）ですか？](hayzdesuka.md)
-* [WIP仕様確認中)プランの比較と機能一覧](wippurannoto.md)
+* [プランの比較と機能一覧](wippurannoto.md)
 * [パスワードを忘れてしまったときはどうすればいいですか？](pasuwdoworeteshimattatokihadousurebaiidesuka.md)
 * [招待を受けたら、どうやってログインしますか？](woketaradouyatteroguinshimasuka.md)
 * [録画Botの入室方法と録画時間の上限について](botnotononitsuite.md)
