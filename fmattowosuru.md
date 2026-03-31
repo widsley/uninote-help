@@ -17,7 +17,7 @@
 1. ［エディター］画面を開きます。
 2.  ［フォーマット］の［+新しいフォーマット］をクリックします。<br>
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 3.  フォーマット名を入力し、［作成］をクリックします。<br>
 
     <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>

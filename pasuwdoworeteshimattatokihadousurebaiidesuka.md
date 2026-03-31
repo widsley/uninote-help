@@ -1,18 +1,22 @@
 # パスワードを忘れてしまったときはどうすればいいですか？
 
-🔓
-
+{% hint style="success" %}
 パスワードをお忘れの場合は、リセット画面から新しいパスワードを設定できます。
+{% endhint %}
 
 ## A. リセット画面から新しいパスワードを設定できます。
 
-1. ログイン画面で［パスワードをお忘れですか？］をクリックします。
+1.  ログイン画面で［パスワードをお忘れですか？］をクリックします。<br>
+
+    <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 2. 登録済みのメールアドレスを入力します。
 3.  6桁の確認コードが届くので、確認コードと新しいパスワードを入力します。
 
     件名：`Reset your Uninote password`　
 
-    送信元：`no-reply@mail.uninote.ai`
+    送信元：`no-reply@mail.uninote.ai`<br>
+
+    <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -28,7 +28,7 @@
 * メールで招待する
   1.  ［送信］を選び、招待するメールアドレスを入力します。<br>
 
-      <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   2. 必要に応じてロールを設定します。
   3.  ［招待］をクリックして完了です。
 
