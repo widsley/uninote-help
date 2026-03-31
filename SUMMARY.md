@@ -11,7 +11,7 @@
 * [ライセンス](raisensu.md)
 * [Google Microsoft アカウントでログインした場合、パスワードは設定できますか？](google-microsoft-akauntoderoguinshitapasuwdohadekimasuka.md)
 * [ユーザーグループを設定する](wipyzgurpuwosuru.md)
-* [WIP)文言確認\_プランをダウングレードするにはどうすればいいですか？](wippuranwodaungurdosurunihadousurebaiidesuka.md)
+* [プランをダウングレードするにはどうすればいいですか？](wippuranwodaungurdosurunihadousurebaiidesuka.md)
 * [タグを作成・管理する](taguwosuru.md)
 * [組織を作成する](wosuru.md)
 * [フォーマットを設定する](fmattowosuru.md)
