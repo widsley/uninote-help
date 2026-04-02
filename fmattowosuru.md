@@ -14,12 +14,12 @@
 ### 手順：エディターを開く
 
 1. ［エディター］画面を開きます。
-2.  ［フォーマット］の［+新しいフォーマット］をクリックします。<br>
+2.  ［フォーマット］の［+新しいフォーマット］をクリックします。<br />
 
-    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-3.  フォーマット名を入力し、［作成］をクリックします。<br>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="" /><figcaption></figcaption></figure>
+3.  フォーマット名を入力し、［作成］をクリックします。<br />
 
-    <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (14).png" alt="" /><figcaption></figcaption></figure>
 
 ***
 
@@ -32,9 +32,9 @@
 2. テンプレートの利用方法を選びます。
    * デフォルトテンプレートをそのまま使う
    * デフォルトテンプレートをベースに、カスタムブロックを追加する
-   *   テンプレートを使わず、カスタムブロックのみで構成する<br>
+   *   テンプレートを使わず、カスタムブロックのみで構成する<br />
 
-       <figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src=".gitbook/assets/image (15).png" alt="" /><figcaption></figcaption></figure>
 3. 追加するブロックの種類を選択します。
    * **プレーンテキスト**
    * **箇条書き**
@@ -43,9 +43,9 @@
 4. ブロックの下の枠に、さらに詳しい指示を入力します。
    * 例：顧客から聞いた課題やニーズを箇条書きでまとめてください。
    * 例：この会議の全体的な要約と最も重要なポイントを記述してください。
-5.  ［プレビュー］で要約のイメージを確認します。<br>
+5.  ［プレビュー］で要約のイメージを確認します。<br />
 
-    <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (16).png" alt="" /><figcaption></figcaption></figure>
 6. 問題なければ［更新］して完了です。
 
 <Note>デフォルトテンプレートの追加・削除・内容の変更はできません。テンプレートを選んだ後、その都度内容を編集することは可能です。</Note>
@@ -56,12 +56,12 @@
 ### ミーティングでフォーマットを選ぶ
 
 1. Meetingsの［+新しいミーティング］（または対象ミーティング）を開きます。
-2.  ［Edit］をクリックします。<br>
+2.  ［Edit］をクリックします。<br />
 
-    <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-3.  ［フォーマット］で作成したフォーマットを選び、更新します。<br>
+    <figure><img src=".gitbook/assets/image (17).png" alt="" /><figcaption></figcaption></figure>
+3.  ［フォーマット］で作成したフォーマットを選び、更新します。<br />
 
-    <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (18).png" alt="" /><figcaption></figcaption></figure>
 
 ***
 
@@ -70,13 +70,13 @@
 <Note>カスタムフィールドは、Salesforceなどの外部ツールと連携するための項目（例：案件名、商材、商談ステージなど）を定義する機能です。AIの要約ブロックとは別の機能です。</Note>
 
 
-1. エディターで［カスタムフィールド］を開きます。<br>
-2.  ［+新しいフィールド］をクリックします。<br>
+1. エディターで［カスタムフィールド］を開きます。<br />
+2.  ［+新しいフィールド］をクリックします。<br />
 
-    <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-3.  フィールド名、フィールドID、フィールドタイプを設定し、適用するフォーマットを選択します。<br>
+    <figure><img src=".gitbook/assets/image (21).png" alt="" /><figcaption></figcaption></figure>
+3.  フィールド名、フィールドID、フィールドタイプを設定し、適用するフォーマットを選択します。<br />
 
-    <figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (22).png" alt="" /><figcaption></figcaption></figure>
 4. ［フィールドを追加］して完了です。
 
 ***
