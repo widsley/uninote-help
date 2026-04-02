@@ -1,16 +1,13 @@
 {
-          "$schema": "https://mintlify.com/docs.json",
-          "theme": "mint",
-          "name": "Comdesk ヘルプ",
-          "colors": {
-                      "primary": "#00BCD4"
-          },
-          "navigation": [
-                      {
-                                    "group": "",
-                                    "pages": [
-                                                    "README"
-                                    ]
-                      }
-          ]
+            "$schema": "https://mintlify.com/docs.json",
+            "theme": "mint",
+            "name": "Comdesk ヘルプ",
+            "colors": {
+                          "primary": "#00BCD4"
+            },
+            "navigation": {
+                          "pages": [
+                                          "README"
+                          ]
+            }
 }
