@@ -17,12 +17,12 @@
 ### 手順：フォルダを作成する
 
 1. ［ミーティング］画面を開きます。
-2.  ［＋新しいフォルダ］をクリックします。<br>
+2.  ［＋新しいフォルダ］をクリックします。<br />
 
-    <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-3.  フォルダ名を入力します。<br>
+    <figure><img src=".gitbook/assets/image (11).png" alt="" /><figcaption></figcaption></figure>
+3.  フォルダ名を入力します。<br />
 
-    <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (13).png" alt="" /><figcaption></figcaption></figure>
 4. 必要に応じて、フォルダメンバー（デフォルトの共有先）を設定します。
 5. ［作成］をクリックして完了です。
 
