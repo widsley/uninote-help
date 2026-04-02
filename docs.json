@@ -1,13 +1,91 @@
 {
-            "$schema": "https://mintlify.com/docs.json",
-            "theme": "mint",
-            "name": "Comdesk ヘルプ",
-            "colors": {
-                          "primary": "#00BCD4"
-            },
-            "navigation": {
-                          "pages": [
-                                          "README"
-                          ]
-            }
+              "$schema": "https://mintlify.com/docs.json",
+              "theme": "mint",
+              "name": "Comdesk ヘルプ",
+              "colors": {
+                              "primary": "#00BCD4"
+              },
+              "navigation": {
+                              "groups": [
+                                                {
+                                                                    "group": "はじめに",
+                                                                    "pages": [
+                                                                                          "README",
+                                                                                          "suttogaido-tenpurto",
+                                                                                          "faq-tenpurto",
+                                                                                          "faq-yi-lan"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "スタートガイド",
+                                                                    "pages": [
+                                                                                          "wosuru",
+                                                                                          "yz-1",
+                                                                                          "karendwosurugoogle-microsoft",
+                                                                                          "forudamtingunokiwosuru",
+                                                                                          "fmattowosuru"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "アカウント・ログイン",
+                                                                    "pages": [
+                                                                                          "akauntonowosurunihadousurebaiidesuka",
+                                                                                          "woketaradouyatteroguinshimasuka",
+                                                                                          "pasuwdoworeteshimattatokihadousurebaiidesuka",
+                                                                                          "google-microsoft-akauntoderoguinshitapasuwdohadekimasuka",
+                                                                                          "rrunotoihadesuka",
+                                                                                          "she-ding"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "カレンダー・ミーティング",
+                                                                    "pages": [
+                                                                                          "karend",
+                                                                                          "mtingu",
+                                                                                          "monit",
+                                                                                          "edit",
+                                                                                          "taguwosuru",
+                                                                                          "forudawosuru",
+                                                                                          "niwosuru",
+                                                                                          "botnotononitsuite"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "AI・フォーマット",
+                                                                    "pages": [
+                                                                                          "puronputotokasutamufrudonoihanandesuka",
+                                                                                          "hayzdesuka"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "プラン・請求",
+                                                                    "pages": [
+                                                                                          "li-yong-gui-yue",
+                                                                                          "nohadonokuraidesuka",
+                                                                                          "kurejittohadonoyounisaremasuka",
+                                                                                          "puranwodeshitahadousaremasuka",
+                                                                                          "raisensu"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "WIPページ",
+                                                                    "pages": [
+                                                                                          "wipdaungurdoyaisaikurunohasugunisaremasuka",
+                                                                                          "wipmonitnoi",
+                                                                                          "wippurannoto",
+                                                                                          "wippuranwodaungurdosurunihadousurebaiidesuka",
+                                                                                          "wipyzgurpuwosuru"
+                                                                    ]
+                                                },
+                                                {
+                                                                    "group": "その他",
+                                                                    "pages": [
+                                                                                          "sutorjiganishitaradounarimasuka",
+                                                                                          "puraibashporish",
+                                                                                          "yz",
+                                                                                          "SUMMARY"
+                                                                    ]
+                                                }
+                              ]
+              }
 }
