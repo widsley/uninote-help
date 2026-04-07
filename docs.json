@@ -30,24 +30,14 @@
             ]
           },
           {
-            "group": "Guides",
-            "pages": [
-              "en/getting-started",
-              "en/calendar",
-              "en/ai-format"
-            ]
-          },
-          {
-            "group": "Account & Billing",
+            "group": "Help Articles",
             "pages": [
               "en/account",
-              "en/billing"
-            ]
-          },
-          {
-            "group": "FAQ",
-            "pages": [
-              "en/faq"
+              "en/ai-format",
+              "en/billing",
+              "en/calendar",
+              "en/faq",
+              "en/getting-started"
             ]
           }
         ]
