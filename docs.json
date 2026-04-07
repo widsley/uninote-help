@@ -11,68 +11,9 @@
     "primary": "#5B4CFF"
   },
   "navigation": {
-    "groups": [
+    "languages": [
       {
-        "group": "Home",
-        "pages": [
-          "index"
-        ]
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "English",
-        "groups": [
-          {
-            "group": "ホーム",
-            "pages": [
-              "en/index"
-            ]
-          },
-          {
-            "group": "スタートガイド",
-            "pages": [
-              "en/wosuru",
-              "en/yz-1",
-              "en/karendwosurugoogle-microsoft",
-              "en/forudamtingunokiwosuru",
-              "en/fmattowosuru"
-            ]
-          },
-          {
-            "group": "アカウント・ログイン",
-            "pages": [
-              "en/akauntonowosurunihadousurebaiidesuka",
-              "en/woketaradouyatteroguinshimasuka",
-              "en/pasuwdoworeteshimattatokihadousurebaiidesuka"
-            ]
-          },
-          {
-            "group": "カレンダー・ミーティング",
-            "pages": [
-              "en/taguwosuru",
-              "en/forudawosuru",
-              "en/niwosuru",
-              "en/botnotononitsuite"
-            ]
-          },
-          {
-            "group": "プラン・請求",
-            "pages": [
-              "en/nohadonokuraidesuka"
-            ]
-          },
-          {
-            "group": "WIPページ",
-            "pages": [
-              "en/wipmonitnoi",
-              "en/wipyzgurpuwosuru"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "日本語",
+        "language": "ja",
         "groups": [
           {
             "group": "ホーム",
@@ -147,6 +88,57 @@
               "ja/sutorjiganishitaradounarimasuka",
               "ja/puraibashporish",
               "ja/yz"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "ホーム",
+            "pages": [
+              "en/index"
+            ]
+          },
+          {
+            "group": "スタートガイド",
+            "pages": [
+              "en/wosuru",
+              "en/yz-1",
+              "en/karendwosurugoogle-microsoft",
+              "en/forudamtingunokiwosuru",
+              "en/fmattowosuru"
+            ]
+          },
+          {
+            "group": "アカウント・ログイン",
+            "pages": [
+              "en/akauntonowosurunihadousurebaiidesuka",
+              "en/woketaradouyatteroguinshimasuka",
+              "en/pasuwdoworeteshimattatokihadousurebaiidesuka"
+            ]
+          },
+          {
+            "group": "カレンダー・ミーティング",
+            "pages": [
+              "en/taguwosuru",
+              "en/forudawosuru",
+              "en/niwosuru",
+              "en/botnotononitsuite"
+            ]
+          },
+          {
+            "group": "プラン・請求",
+            "pages": [
+              "en/nohadonokuraidesuka"
+            ]
+          },
+          {
+            "group": "WIPページ",
+            "pages": [
+              "en/wipmonitnoi",
+              "en/wipyzgurpuwosuru"
             ]
           }
         ]
