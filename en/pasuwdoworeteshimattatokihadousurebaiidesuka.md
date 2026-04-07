@@ -2,7 +2,7 @@
 title: What should I do if I forgot my password?
 ---
 
-<Tip>If you have forgotten your password, you can set a new one from the reset screen.</Tip>
+<Tip>If you have forgotten your password, you can set a new password from the reset screen.</Tip>
 
 
 ## A. You can set a new password from the reset screen.
@@ -11,7 +11,7 @@ title: What should I do if I forgot my password?
 
     <figure><img src="/images/image.png" alt="" /><figcaption></figcaption></figure>
 2. Enter your registered email address.
-3. A 6-digit confirmation code will be sent to you, so enter the confirmation code along with your new password.
+3. A 6-digit verification code will be sent to you, so enter the verification code and your new password.
 
     Subject: `Reset your Uninote password`　
 
@@ -30,4 +30,4 @@ title: What should I do if I forgot my password?
 
 ### Related Pages
 
-* [Can I set a password if I logged in with a Google / Microsoft account?](https://www.notion.so/Google-Microsoft-0282eae039e4822b98fc01397a798676?pvs=21)
+* [Can I set a password if I logged in with a Google / Microsoft account?](/ja/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)

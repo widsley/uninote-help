@@ -55,6 +55,19 @@
               "en/niwosuru",
               "en/botnotononitsuite"
             ]
+          },
+          {
+            "group": "プラン・請求",
+            "pages": [
+              "en/nohadonokuraidesuka"
+            ]
+          },
+          {
+            "group": "WIPページ",
+            "pages": [
+              "en/wipmonitnoi",
+              "en/wipyzgurpuwosuru"
+            ]
           }
         ]
       },

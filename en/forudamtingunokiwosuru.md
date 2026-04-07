@@ -2,9 +2,9 @@
 title: Creating a Folder (Meeting Storage)
 ---
 
-<Note>Folders serve as a "storage" for organizing meetings. By placing meetings in a folder, sharing and management become easier.</Note>
+<Note>Folders serve as a "storage" for organizing meetings. By placing meetings in folders, sharing and management become easier.</Note>
 
-* You can set folder members as "default shared users."
+* Folder members can be set as "default shared users."
 
 
 ***
@@ -12,7 +12,7 @@ title: Creating a Folder (Meeting Storage)
 ### Things to Decide in Advance
 
 * How to categorize folders (by department, project, client, etc.)
-* Who to designate as folder members (default shared users)
+* Who will be the folder members (default shared users)
 
 ***
 
@@ -37,12 +37,12 @@ title: Creating a Folder (Meeting Storage)
     * Company A (PoC)
     * Company B (PoC)
     * Company C (PoC)
-  * Benefit: Reduces confusion about whose meeting it is
-* Example 2: By Project (when overlapping across initiatives or projects)
+  * Benefits: Reduces confusion about whose meeting it is
+* Example 2: By Project (when spanning initiatives or projects)
   * Examples:
     * CS Improvement Project
     * New Feature Validation (PoC)
-    * Onboarding Implementation
+    * Implementation Onboarding
 * Example 3: By Department (when the usage department is clear)
   * Examples:
     * Sales
@@ -53,11 +53,11 @@ title: Creating a Folder (Meeting Storage)
 
 ### Terminology Notes
 
-* **Folder Members**: Members who are "default shared users" in the folder
-* **Participants**: Participant information obtained from calendars, which does not necessarily imply viewing permissions
+* **Folder Members**: Members who are "default shared" in the folder
+* **Participants**: Participant information retrieved from calendars, which does not necessarily imply viewing rights
 
 ***
 
 ### Related Pages
 
-* [Edit or Delete a Folder](https://www.notion.so/80e2eae039e48284bc85014bd1517089?pvs=21)
+* [Edit or Delete a Folder](/ja/forudawosuru)

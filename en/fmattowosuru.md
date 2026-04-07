@@ -1,5 +1,5 @@
 ---
-title: Setting Up Formats
+title: Set Up Formats
 ---
 
 <Note>In the editor, you can set the format, prompts, and custom fields for meeting summaries.</Note>
@@ -27,7 +27,7 @@ title: Setting Up Formats
 
 ### Create a Prompt
 
-<Note>A prompt defines **how to structure the summary with blocks** for the created format. By writing instructions for each block, the AI will generate the summary in that format.</Note>
+<Note>A prompt defines **how to structure the summary with blocks** for the format you created. By writing instructions for each block, the AI generates the summary in that format.</Note>
 
 
 1. Open [Prompt] and select the format you want to edit.
@@ -48,26 +48,26 @@ title: Setting Up Formats
 5. Check the summary preview in [Preview].<br />
 
     <figure><img src="/images/image (16).png" alt="" /><figcaption></figcaption></figure>
-6. If there are no issues, click [Update] to finish.
+6. If everything looks good, click [Update] to finish.
 
-<Note>You cannot add, delete, or change the content of the default template. After selecting a template, you can edit the content each time.</Note>
+<Note>You cannot add, delete, or modify the default template. After selecting a template, you can edit the content each time.</Note>
 
 
 ***
 
-### Selecting a Format in Meetings
+### Select a Format in Meetings
 
 1. Open [+ New Meeting] in Meetings (or the target meeting).
 2. Click [Edit].<br />
 
     <figure><img src="/images/image (17).png" alt="" /><figcaption></figcaption></figure>
-3. Select the created format in [Format] and update.<br />
+3. Select the format you created in [Format] and update it.<br />
 
     <figure><img src="/images/image (18).png" alt="" /><figcaption></figcaption></figure>
 
 ***
 
-### Setting Up Custom Fields (Optional)
+### Set Up Custom Fields (Optional)
 
 <Note>Custom fields are items defined for integration with external tools like Salesforce (e.g., project name, product, deal stage, etc.). This is a separate function from the AI summary blocks.</Note>
 
@@ -76,7 +76,7 @@ title: Setting Up Formats
 2. Click [+ New Field].<br />
 
     <figure><img src="/images/image (21).png" alt="" /><figcaption></figcaption></figure>
-3. Set the field name, field ID, and field type, and select the applicable format.<br />
+3. Set the field name, field ID, and field type, and select the format to apply.<br />
 
     <figure><img src="/images/image (22).png" alt="" /><figcaption></figcaption></figure>
 4. Click [Add Field] to finish.
@@ -85,5 +85,5 @@ title: Setting Up Formats
 
 ### Further Utilization
 
-* 🏷️ [**Create and Manage Tags**](https://www.notion.so/1772eae039e48212956b01962ed13ea0?pvs=21)
-* 📚 [**Register Words in the Dictionary**](https://www.notion.so/50f2eae039e48258b8fd015e1c00abc6?pvs=21)
+* 🏷️ [**Create and Manage Tags**](/ja/taguwosuru)
+* 📚 [**Register Words in the Dictionary**](/ja/niwosuru)
