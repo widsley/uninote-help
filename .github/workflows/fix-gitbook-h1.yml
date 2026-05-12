@@ -104,6 +104,71 @@ jobs:
             echo "Copied images to images/"
           fi
 
+      - name: Update docs.json navigation with new pages
+        run: |
+          python3 - << 'PYEOF'
+          import json, os
+
+          DEFAULT_GROUP = "未分類"
+          # 非表示扱いとするファイル名（拡張子なし）
+          HIDDEN = {"faq-tenpurto", "suttogaido-tenpurto"}
+
+          if not os.path.exists('docs.json'):
+              print("docs.json not found; skipping")
+              raise SystemExit(0)
+
+          with open('docs.json', encoding='utf-8') as f:
+              docs = json.load(f)
+
+          changed = False
+          for lang_config in docs.get('navigation', {}).get('languages', []):
+              lang = lang_config['language']
+              if not os.path.isdir(lang):
+                  continue
+
+              files_in_dir = {
+                  os.path.splitext(fn)[0]
+                  for fn in os.listdir(lang)
+                  if fn.endswith('.md')
+              }
+
+              # 既存ナビ登録ページ
+              existing = set()
+              for group in lang_config['groups']:
+                  for page in group['pages']:
+                      existing.add(page.replace(f'{lang}/', '', 1))
+
+              # 新規ファイル
+              new_pages = sorted(
+                  f for f in files_in_dir
+                  if f not in existing and f not in HIDDEN
+              )
+
+              if not new_pages:
+                  continue
+
+              # 「未分類」グループを探す／作成
+              misc = next((g for g in lang_config['groups'] if g['group'] == DEFAULT_GROUP), None)
+              if not misc:
+                  misc = {'group': DEFAULT_GROUP, 'pages': []}
+                  lang_config['groups'].append(misc)
+
+              for f in new_pages:
+                  page = f'{lang}/{f}'
+                  if page not in misc['pages']:
+                      misc['pages'].append(page)
+                      print(f"  Added {page} to {DEFAULT_GROUP}")
+                      changed = True
+
+          if changed:
+              with open('docs.json', 'w', encoding='utf-8') as f:
+                  json.dump(docs, f, ensure_ascii=False, indent=2)
+                  f.write('\n')
+              print("docs.json updated")
+          else:
+              print("No new pages; docs.json unchanged")
+          PYEOF
+
       - name: Check for changes
         id: changes
         run: |
@@ -115,5 +180,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "auto: process GitBook sync (move to ja/, fix H1, fix image paths)"
+          git commit -m "auto: process GitBook sync (move to ja/, fix H1, fix image paths, update navigation)"
           git push
