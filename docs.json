@@ -73,6 +73,12 @@
             ]
           },
           {
+            "group": "よくある質問",
+            "pages": [
+              "ja/faq-yi-lan"
+            ]
+          },
+          {
             "group": "WIPページ",
             "pages": [
               "ja/wipdaungurdoyaisaikurunohasugunisaremasuka",

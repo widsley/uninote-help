@@ -2,4 +2,16 @@
 title: エディター
 ---
 
-[無題](/broken/pages/0f29a1dbf3936f5bc89348b515774d3fa4cda74d)
+<Note>エディター画面では、ミーティングの要約フォーマットやプロンプト、辞書、タグ、カスタムフィールドを管理できます。</Note>
+
+## できること
+
+* 要約フォーマットとプロンプトの設定
+* タグ・辞書・カスタムフィールドの管理
+
+## 関連ページ
+
+* [フォーマットを設定する](/ja/fmattowosuru)
+* [プロンプトとカスタムフィールドの違いはなんですか？](/ja/puronputotokasutamufrudonoihanandesuka)
+* [タグを作成・管理する](/ja/taguwosuru)
+* [辞書に単語を登録する](/ja/niwosuru)
