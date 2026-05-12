@@ -33,4 +33,4 @@ title: ストレージが上限に達したらどうなりますか？
 
 ### 関連ページ
 
-* プランをダウングレードするにはどうすればいいですか？
+* [プランをダウングレードするにはどうすればいいですか？](/ja/wippuranwodaungurdosurunihadousurebaiidesuka)

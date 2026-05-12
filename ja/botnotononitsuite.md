@@ -45,5 +45,5 @@ Botをミーティングに入室させる方法は2つあります。
 
 ## 関連ページ
 
-* [カレンダーを同期する](/ja/karendwosurugoogle-microsoft)
+* [カレンダーを同期する（Google /Microsoft）](/ja/karendwosurugoogle-microsoft)
 * [録画の最大時間はどのくらいですか？](/ja/nohadonokuraidesuka)

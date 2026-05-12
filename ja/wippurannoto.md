@@ -36,4 +36,4 @@ Uninoteには **Free・Lite・Team・Business・Pro・Enterprise** の6つのプ
 
 ## 関連ページ
 
-* プランを途中で変更した場合、料金はどう計算されますか？
+* [プランを途中で変更した場合、料金はどう計算されますか？](/ja/puranwodeshitahadousaremasuka)
