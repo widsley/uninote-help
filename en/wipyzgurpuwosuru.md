@@ -21,7 +21,7 @@ Creating user groups allows you to organize multiple users into groups similar t
 To add existing users to a group, follow these steps:
 
 1. Open **[Users]** > **[User Management]**.
-2. Click the **“…” (three-dot menu)** in the row of the user you want to add.
+2. Click the **"…" (ellipsis)** on the row of the user you want to add.
 3. Select **[Edit]**.
 4. Choose the user group and click **[Save]**.
 
@@ -37,4 +37,4 @@ When inviting new users, you can set the user group on the invitation screen.
 
 ## Related Pages
 
-* [Add Users](/ja/yz-1)
+* [Add User (Invite)](/ja/yz-1)
