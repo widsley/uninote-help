@@ -1,4 +1,6 @@
-# Uninote  を Zoom にインストールする
+---
+title: Uninote  を Zoom にインストールする
+---
 
 ### 概要
 
