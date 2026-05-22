@@ -28,4 +28,4 @@ description: Welcome to the Uninote User Guide
 
 ## Contact Support
 
-If you have any issues that cannot be resolved, please feel free to contact us at support@widsley.com.
+If you have any issues that cannot be resolved, click the chat button at the bottom-right of any page — it opens a Zendesk ticket directly with the Uninote support team. Email contact: support@widsley.com.
