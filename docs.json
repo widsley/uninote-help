@@ -207,5 +207,5 @@
       "permanent": false
     }
   ],
-  "customJs": "/plain.js"
+  "customJs": "/zendesk.js"
 }
