@@ -7,10 +7,10 @@ description: Welcome to the Uninote User Guide
 
 <CardGroup cols={2}>
   <Card title="Getting Started" icon="rocket" href="/en/wosuru">
-    The initial setup steps from creating an organization to adding users.
+    This is the initial setup guide from creating an organization to adding users.
   </Card>
   <Card title="Calendar & Meetings" icon="calendar" href="/en/karend">
-    Synchronizing with Google/Microsoft Calendar and managing meetings.
+    Syncing Google/Microsoft calendars and managing meetings.
   </Card>
   <Card title="AI & Formats" icon="wand-magic-sparkles" href="/en/puronputotokasutamufrudonoihanandesuka">
     How to use AI prompts and custom fields.
@@ -28,4 +28,5 @@ description: Welcome to the Uninote User Guide
 
 ## Contact Support
 
-If you have any issues that cannot be resolved, click the chat button at the bottom-right of any page — it opens a Zendesk ticket directly with the Uninote support team. Email contact: support@widsley.com.
+If you have any issues that cannot be resolved, please contact us via the chat button in the bottom right corner (it will reach the Uninote support team directly on Zendesk).  
+For email inquiries, please reach out to support@widsley.com.
