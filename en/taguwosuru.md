@@ -2,7 +2,7 @@
 title: Create and Manage Tags
 ---
 
-<Note>Tags are used to search and organize meetings (e.g., new sales, product name, second meeting, etc.).</Note>
+<Note>Tags are used for searching and organizing meetings (e.g., new sales, product names, second meetings, etc.).</Note>
 
 
 ***
@@ -11,7 +11,7 @@ title: Create and Manage Tags
 
 1. Open the [Editor] screen.
 2. Select [Tags].
-3. Click on [＋New Tag].
+3. Click [＋New Tag].
 
     ![image.png](</images/image (5) (1).png>)
 4. Enter the tag name.

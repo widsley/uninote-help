@@ -1,10 +1,10 @@
 ---
-title: Is pricing based on usage (number of users)?
+title: Is the pricing based on usage (per user)?
 ---
 
-<Tip>Pricing is NOT based on per-user usage.</Tip>
+<Tip>The pricing is **not based on a per-user usage model**.</Tip>
 
-## A. Pricing is not based on the number of users.
+## A. Billing is not based on the number of users.
 
-* **Users are unlimited** (adding more users does not increase the fee).
-* **Charges are based on storage usage**.
+* **Users are unlimited** (adding more users does not increase the cost).
+* **Billing is based on storage usage**.

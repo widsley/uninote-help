@@ -2,20 +2,20 @@
 title: What is the difference between prompts and custom fields?
 ---
 
-<Tip>A prompt is an "instruction text for meeting summarization", while a custom field is an "item for integrating with CRMs such as Salesforce".</Tip>
+<Tip>Prompts are "instructions for meeting summaries," while custom fields are "items for integration with CRMs like Salesforce."</Tip>
 
 
-## A. Prompts are instructions for summarization; custom fields are items for CRM integration.
+## A. Prompts are instructions for summaries, and custom fields are items for CRM integration.
 
-* **Prompt**: Instruction text for meeting summaries. It tells the AI what content to output and in what format.
-  * Example: Output decisions / ToDos / discussion points in this order
-  * Example: Include the assignee and due date for each ToDo
-* **Custom field**: Defines items (input fields) for integration with CRMs such as Salesforce.
-  * Example: Deal name, product name, sales stage
+* **Prompts**: Instructions for meeting summaries. They direct the AI on what content to output and in what format.
+  * Example: Output in the order of decisions / ToDos / discussion points
+  * Example: Include assignees and deadlines for each ToDo
+* **Custom Fields**: Define items (input fields) for integration with CRMs like Salesforce.
+  * Example: Opportunity name, product name, deal stage
 
 ***
 
-### How to choose
+### Guidelines for Use
 
-* You want to standardize the look and content of summaries → **Prompt**
-* You want to manage items that integrate with a CRM like Salesforce → **Custom field**
+* If you want to standardize the appearance and content of summaries → **Prompts**
+* If you want to manage items for integration with CRMs like Salesforce → **Custom Fields**

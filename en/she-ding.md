@@ -14,5 +14,5 @@ title: Settings
 
 * [How can I change my account name?](/en/akauntonowosurunihadousurebaiidesuka)
 * [What should I do if I forgot my password?](/en/pasuwdoworeteshimattatokihadousurebaiidesuka)
-* [If I log in with a Google / Microsoft account, can I set a password?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
+* [Can I set a password if I log in with a Google / Microsoft account?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
 * [What are the types and differences of roles (permissions)?](/en/rrunotoihadesuka)

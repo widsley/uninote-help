@@ -2,17 +2,16 @@
 title: Creating a Folder (Meeting Storage)
 ---
 
-<Note>Folders serve as a "storage" for organizing meetings. By placing meetings in folders, sharing and management become easier.</Note>
+<Note>Folders serve as a "storage" for organizing meetings. By storing meetings in a folder, sharing and management become easier.</Note>
 
-* Folder members can be set as "default shared users."
-
+* Members of the folder can be set as "default shared users."
 
 ***
 
 ### Things to Decide in Advance
 
 * How to categorize folders (by department, project, client, etc.)
-* Who will be the folder members (default shared users)
+* Folder members (default shared users)
 
 ***
 
@@ -25,25 +24,25 @@ title: Creating a Folder (Meeting Storage)
 3. Enter the folder name.<br />
 
     <figure><img src="/images/image (13).png" alt="" /><figcaption></figcaption></figure>
-4. If necessary, set the folder members (default sharing destination).
+4. If necessary, set the folder members (default shared users).
 5. Click [Create] to finish.
 
 ***
 
-### Example Folder Structures
+### Examples of Folder Structure
 
 * Example 1: By Client
   * Examples:
     * Company A (PoC)
     * Company B (PoC)
     * Company C (PoC)
-  * Benefits: Reduces confusion about whose meeting it is
-* Example 2: By Project (when spanning initiatives or projects)
+  * Benefits: Clearly identifies whose meetings they are, preventing confusion.
+* Example 2: By Project (when spanning multiple initiatives or projects)
   * Examples:
     * CS Improvement Project
     * New Feature Validation (PoC)
     * Implementation Onboarding
-* Example 3: By Department (when the usage department is clear)
+* Example 3: By Department (when the user department is clear)
   * Examples:
     * Sales
     * CS
@@ -51,10 +50,10 @@ title: Creating a Folder (Meeting Storage)
 
 ***
 
-### Terminology Notes
+### Terminology Supplement
 
-* **Folder Members**: Members who are "default shared" in the folder
-* **Participants**: Participant information retrieved from calendars, which does not necessarily imply viewing rights
+* **Folder Members**: Members who are "default shared" within the folder.
+* **Participants**: Participant information obtained from the calendar. This does not imply viewing permissions.
 
 ***
 

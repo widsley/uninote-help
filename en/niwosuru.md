@@ -16,4 +16,4 @@ title: Registering Words in the Dictionary
     <figure><img src="/images/image (25).png" alt=""><figcaption></figcaption></figure>
 4. Enter the search word and replacement text.
    * Example: product names, department names, personal names, abbreviations
-5. Click [Create] to finish.
+5. Click [Create] to complete.

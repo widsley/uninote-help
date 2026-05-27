@@ -1,5 +1,5 @@
 ---
-title: Set Up Formats
+title: Setting Up Formats
 ---
 
 <Note>In the editor, you can set the format, prompts, and custom fields for meeting summaries.</Note>
@@ -9,14 +9,14 @@ title: Set Up Formats
 
 ### Things to Check in Advance
 
-* Decide on the type of summary you want to produce (e.g., decisions, ToDos, risks, etc.).
+* Decide what kind of summary you want to output (e.g., decisions, ToDos, risks, etc.).
 
 ***
 
 ### Steps: Open the Editor
 
 1. Open the [Editor] screen.
-2. Click on [Format] and then [+ New Format].<br />
+2. Click on [Format] → [+ New Format].<br />
 
     <figure><img src="/images/image (1) (1).png" alt="" /><figcaption></figcaption></figure>
 3. Enter the format name and click [Create].<br />
@@ -27,7 +27,7 @@ title: Set Up Formats
 
 ### Create a Prompt
 
-<Note>A prompt defines **how to structure the summary with blocks** for the format you created. By writing instructions for each block, the AI generates the summary in that format.</Note>
+<Note>A prompt defines **how to structure the summary with blocks** for the created format. By writing instructions for each block, the AI generates the summary in that format.</Note>
 
 
 1. Open [Prompt] and select the format you want to edit.
@@ -43,40 +43,40 @@ title: Set Up Formats
    * **Numbered List**
    * **Table with Borders**
 4. Enter more detailed instructions in the box below the block.
-   * Example: Please summarize the issues and needs heard from the customer in bullet points.
-   * Example: Describe the overall summary of this meeting and the most important points.
+   * Example: Summarize the issues and needs gathered from the customer in bullet points.
+   * Example: Provide a summary of the entire meeting and highlight the most important points.
 5. Check the summary preview in [Preview].<br />
 
     <figure><img src="/images/image (16).png" alt="" /><figcaption></figcaption></figure>
 6. If everything looks good, click [Update] to finish.
 
-<Note>You cannot add, delete, or modify the default template. After selecting a template, you can edit the content each time.</Note>
+<Note>The default template cannot be added to, deleted, or edited. Please select a template and edit the content each time.</Note>
 
 
 ***
 
-### Select a Format in Meetings
+### Selecting a Format in a Meeting
 
-1. Open [+ New Meeting] in Meetings (or the target meeting).
+1. Open the meeting by clicking [+ New Meeting] (or the relevant meeting).
 2. Click [Edit].<br />
 
     <figure><img src="/images/image (17).png" alt="" /><figcaption></figcaption></figure>
-3. Select the format you created in [Format] and update it.<br />
+3. Select the created format in [Format] and update.<br />
 
     <figure><img src="/images/image (18).png" alt="" /><figcaption></figcaption></figure>
 
 ***
 
-### Set Up Custom Fields (Optional)
+### Setting Up Custom Fields (Optional)
 
-<Note>Custom fields are items defined for integration with external tools like Salesforce (e.g., project name, product, deal stage, etc.). This is a separate function from the AI summary blocks.</Note>
+<Note>Custom fields are defined items for integration with external tools like Salesforce (e.g., project name, product, deal stage, etc.). This is a separate function from the AI summary blocks.</Note>
 
 
 1. Open [Custom Fields] in the editor.<br />
 2. Click [+ New Field].<br />
 
     <figure><img src="/images/image (21).png" alt="" /><figcaption></figcaption></figure>
-3. Set the field name, field ID, and field type, and select the format to apply.<br />
+3. Set the field name, field ID, and field type, and select the applicable format.<br />
 
     <figure><img src="/images/image (22).png" alt="" /><figcaption></figcaption></figure>
 4. Click [Add Field] to finish.

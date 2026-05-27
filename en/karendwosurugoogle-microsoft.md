@@ -2,9 +2,9 @@
 title: Syncing Calendar (Google / Microsoft)
 ---
 
-<Note>By syncing your calendar with Uninote, you can import schedules and use related features.</Note>
+<Note>By syncing your calendar with Uninote, you can import schedules and utilize related features.</Note>
 
-This article summarizes the steps to integrate with Google Calendar / Microsoft 365.
+This article outlines the steps to integrate with Google Calendar / Microsoft 365.
 
 
 ***
@@ -23,7 +23,7 @@ This article summarizes the steps to integrate with Google Calendar / Microsoft 
 
       <figure><img src="/images/image (8).png" alt="" /><figcaption></figcaption></figure>
   2. Log in with your Google account.
-  3. When the access permission confirmation screen appears, grant permission.
+  3. When the access permission confirmation screen appears, grant the necessary permissions.
 
 ***
 
@@ -32,17 +32,17 @@ This article summarizes the steps to integrate with Google Calendar / Microsoft 
 
       <figure><img src="/images/image (9).png" alt="" /><figcaption></figcaption></figure>
   2. Log in with your Microsoft account.
-  3. If organizational approval is required, request permission from your administrator.
+  3. If organizational approval is required, please request permission from your administrator.
 
 ***
 
 ### Adding Meetings Without Calendar Sync
 
-<Note>Even if you are not using calendar integration, you can manually register meetings from [ + New Meeting ].</Note>
+<Note>Even if you do not use calendar integration, you can manually register from [＋New Meeting].</Note>
 
 
 1. Open the [Meeting] screen.
-2. Click [ + New Meeting ].<br />
+2. Click [＋New Meeting].<br />
 
     <figure><img src="/images/image (10).png" alt="" /><figcaption></figcaption></figure>
 3. Enter the meeting information.

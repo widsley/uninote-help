@@ -15,4 +15,4 @@ title: Users
 * [Add User (Invite)](/en/yz-1)
 * [How do I log in after receiving an invitation?](/en/woketaradouyatteroguinshimasuka)
 * [What are the types and differences of roles (permissions)?](/en/rrunotoihadesuka)
-* [Set up User Groups](/en/wipyzgurpuwosuru)
+* [Set up User Groups](/en/yzgurpuwosuru)

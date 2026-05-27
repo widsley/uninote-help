@@ -11,17 +11,17 @@ title: How do I log in after receiving an invitation?
 
 ### How to Log In
 
-1. Open the Uninote registration screen.
-   *   **If you received an invitation email**: Click on the [Accept Invitation] link in the email.
+1. Open the Uninote registration page.
+   *   **If you received an invitation email**: Click the [Accept Invitation] link in the email.
 
-       Subject: `Invitation to join ｛Organization Name｝`  From: `noreply@mail.uninote.ai`
+       Subject: `Invitation to join {Organization Name}`  From: `noreply@mail.uninote.ai`
    * **If you received an invitation URL**: Open the URL in your browser.
-2. Click on [New Registration].<br />
+2. Click on [Sign Up].<br />
 
     <figure><img src="/images/image (1).png" alt="" /><figcaption></figcaption></figure>
 3. Choose your registration method.
-   * If registering with an email address: Enter your name, email address, and password, then click the link in the verification email (Subject: `Verify your Uninote account`)
-   *   If registering with a Google / Microsoft account: Select "Sign in with Google" or "Sign in with Microsoft" and grant permission to your account.<br />
+   * If registering with an email address: Enter your name, email address, and password, then click the link in the confirmation email (Subject: `Verify your Uninote account`).
+   *   If registering with a Google / Microsoft account: Select "Sign in with Google" or "Sign in with Microsoft" and grant permission to access your account.<br />
 
        <figure><img src="/images/image (23).png" alt="" /><figcaption></figcaption></figure>
 
@@ -30,4 +30,4 @@ title: How do I log in after receiving an invitation?
 ### If you do not receive the invitation email
 
 * Please check your spam folder.
-* If the issue persists, ask your administrator to resend the invitation.
+* If the issue persists, please ask your administrator to resend the invitation.

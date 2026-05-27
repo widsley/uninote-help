@@ -1,53 +1,53 @@
 ---
-title: How is the fee calculated if I change my plan mid-month?
+title: How is the fee calculated if I change my plan midway?
 ---
 
-<Tip>If you change your plan mid-month, the **prorated amount** will be charged.</Tip>
+<Tip>If you change your plan in the middle of the month, the fee will be calculated on a **pro-rata basis**.</Tip>
 
 
-## A. The prorated difference from the change date to the end of the month will be charged.
+## A. The difference from the change date to the end of the month will be charged on a pro-rata basis.
 
 ### Basic Calculation Rules
 
-* **Denominator for calculation**: The number of days in the month of the change (e.g., 31 days for January, 28 or 29 days for February)
-* **Rounding**: If the calculation results in a decimal, it will be **rounded down**
+* **Denominator for calculation**: The number of days in the month when the change occurs (e.g., January has 31 days, February has 28 or 29 days)
+* **Rounding**: If the calculation results in a decimal, it will be **truncated**
 
 ***
 
 ### In the case of an upgrade (monthly payment)
 
-The prorated difference from the change date to the end of the month will be charged immediately.
+The difference from the change date to the end of the month will be charged immediately.
 
-**Example: If upgraded on May 15**
+**Example: If you upgrade on May 15**
 
-1. Prorated difference for May 15 to 31 (17/31 of the month)
-2. From the following month, the new plan's monthly fee will apply
+1. The difference for May 15 to 31 (17 days out of 31)
+2. From the following month, the monthly fee for the new plan will apply
 
 ***
 
-### In the case of an annual payment plan (fixed rule for renewal date)
+### In the case of annual payment (fixed update date rule)
 
-* The next renewal date is determined based on the date the paid plan was first contracted.
-* Upgrading during the term will **not change this renewal date**.
+* The next update date is based on the date when the paid plan was initially contracted.
+* The update date **does not change** for upgrades made during the term.
 
-**Example: If a new annual contract was made on January 10**
+**Example: If you newly contract an annual plan on January 10**
 
-* Initial charge: Prorated fee for the first month (21/31 of the month) + lump sum for the remaining 11 months
-* Next renewal date: January 1 of the following year (fixed every January 1 thereafter)
+* Initial charge: Pro-rated amount for the first month (21 days out of 31) + lump sum for the remaining 11 months
+* Next update date: January 1 of the following year (fixed every year on January 1)
 
-**Example: If the annual payment plan was upgraded on May 15**
+**Example: If you upgrade your annual plan on May 15**
 
-* Charges: Prorated difference for May 15 to 31 + difference for June to December (7 months)
-* Next renewal date: Remains January 1 of the following year
+* Charges: Difference for May 15 to 31 + difference for June to December (7 months)
+* Next update date: Remains January 1 of the following year
 
 ***
 
 ### Additional Notes
 
-* Downgrades or changes to the payment cycle are not applied immediately and will take effect from the next renewal date (no prorated calculation will occur).
+* Downgrades and changes to the payment cycle are not reflected immediately and will apply from the next update date (no pro-rata calculation will be performed).
 
 ***
 
 ### Related Pages
 
-* [Are downgrades or changes to the payment cycle reflected immediately?](/en/wipdaungurdoyaisaikurunohasugunisaremasuka)
+* [Are downgrades and changes to the payment cycle reflected immediately?](/en/daungurdoyaisaikurunohasugunisaremasuka)

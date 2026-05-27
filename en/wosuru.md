@@ -2,7 +2,7 @@
 title: Create an Organization
 ---
 
-<Note>This document explains how to create a Uninote account and set up a workspace (organization).</Note>
+<Note>This document explains the steps for creating an account and setting up a workspace (organization) in Uninote.</Note>
 
 
 ***
@@ -19,13 +19,13 @@ title: Create an Organization
 * If registering with an email address:
   1. Enter your name, email address, and password, then click [Register].\
      ![](</images/image (2) (1).png>)
-  2. Click the link in the verification email sent to your registered email address.
+  2. Click the link in the confirmation email sent to your registered email address.
 
       📧 Subject: `Verify your Uninote account` From: `no-reply@mail.uninote.ai`
 * If registering with a Google / Microsoft account:
   1. Select "Sign in with Google" or "Sign in with Microsoft".\
      ![](</images/image (3).png>)
-  2. Choose the account you want to use and grant permission.
+  2. Choose the account you want to use and grant permissions.
 
 #### 2. Create an Organization
 

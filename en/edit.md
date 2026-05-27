@@ -2,12 +2,12 @@
 title: Editor
 ---
 
-<Note>In the editor screen, you can manage meeting summary formats, prompts, dictionaries, tags, and custom fields.</Note>
+<Note>In the editor screen, you can manage the meeting summary format, prompts, dictionaries, tags, and custom fields.</Note>
 
-## Capabilities
+## What You Can Do
 
-* Setting summary formats and prompts
-* Managing tags, dictionaries, and custom fields
+* Set summary formats and prompts
+* Manage tags, dictionaries, and custom fields
 
 ## Related Pages
 

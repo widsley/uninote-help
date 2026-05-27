@@ -1,8 +1,8 @@
 ---
-title: What should I do if I forgot my password?
+title: What should I do if I forget my password?
 ---
 
-<Tip>If you have forgotten your password, you can set a new password from the reset screen.</Tip>
+<Tip>If you forget your password, you can set a new one from the reset screen.</Tip>
 
 
 ## A. You can set a new password from the reset screen.
@@ -21,10 +21,10 @@ title: What should I do if I forgot my password?
 
 ***
 
-### Note
+### Additional Information
 
 * If you do not receive the reset email, please check your spam folder.
-* If you are unsure of your registered email address, please contact your administrator.
+* If you do not remember your registered email address, please contact your administrator.
 
 ***
 

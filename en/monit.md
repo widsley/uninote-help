@@ -4,12 +4,12 @@ title: Monitor
 
 <Note>You can check ongoing meetings in real-time on the monitor screen.</Note>
 
-## Capabilities
+## Features
 
 * List of ongoing meetings
 * Filtering by participants, folders, tags, and titles
 
 ## Related Pages
 
-* [How to Use the Monitor Screen](/en/wipmonitnoi)
-* [How to Join the Recording Bot and the Maximum Recording Time](/en/botnotononitsuite)
+* [How to Use the Monitor Screen](/en/monitnoi)
+* [How to Join the Recording Bot and the Recording Time Limit](/en/botnotononitsuite)

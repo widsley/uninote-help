@@ -7,10 +7,10 @@ title: Calendar
 ## Features
 
 * Synchronization with Google / Microsoft Calendar
-* Creating and editing meetings on the calendar
+* Creation and editing of meetings on the calendar
 * Automatic entry settings for the recording Bot
 
 ## Related Pages
 
-* [Synchronizing the Calendar (Google / Microsoft)](/en/karendwosurugoogle-microsoft)
+* [Synchronize Calendar (Google / Microsoft)](/en/karendwosurugoogle-microsoft)
 * [How to Enter the Recording Bot and Limits on Recording Time](/en/botnotononitsuite)
