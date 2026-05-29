@@ -63,6 +63,15 @@
             ]
           },
           {
+            "group": "Zoom 連携",
+            "pages": [
+              "uninote-ai-zoom",
+              "file",
+              "recording",
+              "disconecting"
+            ]
+          },
+          {
             "group": "プラン・請求",
             "pages": [
               "ja/li-yong-gui-yue",
@@ -153,6 +162,15 @@
               "en/forudawosuru",
               "en/niwosuru",
               "en/botnotononitsuite"
+            ]
+          },
+          {
+            "group": "Zoom Integration",
+            "pages": [
+              "install-uninote-ai-for-zoom",
+              "permission",
+              "recording-a-zoom-meeting",
+              "disconnecting-and-removing-the-app"
             ]
           },
           {
