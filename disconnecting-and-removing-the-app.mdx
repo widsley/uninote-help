@@ -1,0 +1,59 @@
+---
+title: "Disconnecting & Removing the App"
+description: "Two-step removal of the Uninote AI integration from your Zoom and Uninote AI accounts."
+icon: "unlink"
+---
+
+## Overview
+
+There are two separate places where Uninote AI's Zoom integration is registered: **inside your Uninote AI account** (where we store your OAuth tokens and bot launch settings) and **inside Zoom** (where the app is installed on your Zoom account).
+
+To completely remove the integration, you must use **both** of the following steps, in this order.
+
+## Step 1 — Disconnect inside Uninote AI
+
+This cleans up our side.
+
+1. Sign in to [Uninote AI](https://app.uninote.ai).
+2. Go to **Settings \> Integrations \> Zoom**.
+3. Click **Disconnect**.
+
+When you click Disconnect, Uninote AI immediately:
+
+- Deletes your stored OAuth tokens from our database.
+- Calls Zoom's `POST /oauth/revoke` endpoint to invalidate the grant on Zoom's side as well.
+- Stops any scheduled bot launches associated with your account.
+
+## Step 2 — Remove the app from the Zoom App Marketplace
+
+This cleans up Zoom's side.
+
+1. Go to the [Zoom App Marketplace](https://marketplace.zoom.us).
+2. Click **Manage \> Installed Apps**.
+3. Find **Uninote AI** and click **Remove**.
+4. Confirm the removal.
+
+## Why both steps are needed
+
+<Warning>
+  If you only do Step 2 (Marketplace remove) without Step 1 (in-app Disconnect), the OAuth tokens we hold will eventually expire on their own — Zoom access tokens within about 1 hour, refresh tokens within 90 days. During that window, the bot will fail to authenticate on any new meeting. To stop the bot immediately and delete our copy of your tokens, you must do Step 1.
+</Warning>
+
+## Deleting your existing recordings
+
+Disconnecting and removing the app does **not** delete recordings or transcripts you have already created. To delete that data, choose one of:
+
+- Sign in and use **Settings \> Account \> Delete account** — removes your whole Uninote AI account and all associated data.
+- Email [**support@widsley.com**](mailto:support@widsley.com) with the subject line `Data deletion request — [your account email]` — we will delete the requested data and confirm by email.
+
+## EU / UK data subject rights
+
+If you are located in the EU or UK, you have additional rights under GDPR / UK-GDPR:
+
+- **Access** the personal data we hold about you.
+- **Correct** inaccurate personal data.
+- **Delete** your personal data ("right to be forgotten").
+- **Restrict** or **object to** certain processing of your personal data.
+- **Port** your personal data to another service in a structured, machine-readable format.
+
+To exercise any of these rights, email [**support@widsley.com**](mailto:support@widsley.com) with the subject line `GDPR request — [your account email]`. We respond within 30 days as required by GDPR Article 12(3).
