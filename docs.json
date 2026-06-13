@@ -65,10 +65,10 @@
           {
             "group": "Zoom 連携",
             "pages": [
-              "uninote-ai-zoom",
-              "file",
-              "recording",
-              "disconecting"
+              "ja/uninote-ai-zoom",
+              "ja/file",
+              "ja/recording",
+              "ja/disconecting"
             ]
           },
           {
@@ -112,11 +112,7 @@
               "ja/monitnoi",
               "ja/purannoto",
               "ja/puranwodaungurdosurunihadousurebaiidesuka",
-              "ja/toapurino",
-              "ja/tobottono",
-              "ja/uninote-wo-zoom-niinsutrusuru",
-              "ja/yzgurpuwosuru",
-              "ja/zoom-no"
+              "ja/yzgurpuwosuru"
             ]
           }
         ]
@@ -167,10 +163,10 @@
           {
             "group": "Zoom Integration",
             "pages": [
-              "install-uninote-ai-for-zoom",
-              "permission",
-              "recording-a-zoom-meeting",
-              "disconnecting-and-removing-the-app"
+              "en/install-uninote-ai-for-zoom",
+              "en/permission",
+              "en/recording-a-zoom-meeting",
+              "en/disconnecting-and-removing-the-app"
             ]
           },
           {
@@ -232,6 +228,51 @@
     {
       "source": "/",
       "destination": "/ja",
+      "permanent": false
+    },
+    {
+      "source": "/install-uninote-ai-for-zoom",
+      "destination": "/en/install-uninote-ai-for-zoom",
+      "permanent": true
+    },
+    {
+      "source": "/permission",
+      "destination": "/en/permission",
+      "permanent": true
+    },
+    {
+      "source": "/recording-a-zoom-meeting",
+      "destination": "/en/recording-a-zoom-meeting",
+      "permanent": true
+    },
+    {
+      "source": "/disconnecting-and-removing-the-app",
+      "destination": "/en/disconnecting-and-removing-the-app",
+      "permanent": true
+    },
+    {
+      "source": "/uninote-ai-zoom",
+      "destination": "/ja/uninote-ai-zoom",
+      "permanent": true
+    },
+    {
+      "source": "/file",
+      "destination": "/ja/file",
+      "permanent": true
+    },
+    {
+      "source": "/recording",
+      "destination": "/ja/recording",
+      "permanent": true
+    },
+    {
+      "source": "/disconecting",
+      "destination": "/ja/disconecting",
+      "permanent": true
+    },
+    {
+      "source": "/ja/install-uninote-ai-for-zoom",
+      "destination": "/ja/uninote-ai-zoom",
       "permanent": false
     }
   ],
