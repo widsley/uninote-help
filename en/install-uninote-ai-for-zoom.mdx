@@ -1,28 +1,27 @@
 ---
-title: "Install Uninote AI for Zoom"
-description: "Add the Uninote AI app from the Zoom Marketplace and connect your Zoom account."
-icon: "download"
+title: "Uninote AI for Zoom"
+description: "Complete guide — installing, using, and removing the Uninote AI integration for Zoom."
+icon: "video"
 ---
 
 ## Overview
 
-This page describes how to install the Uninote AI app from the Zoom App Marketplace and connect your Zoom account so Uninote AI can record, transcribe, and summarize your Zoom meetingsdescribes how to install the Uninote AI app from the Zoom App Marketplace and connect your Zoom account so Uninote AI can record, transcribe, and summarize your Zoom meetings.
+This page is the complete guide to the Uninote AI integration for Zoom. It covers how to add the app, what permissions it requests, how recording works, and how to remove the app and your data.
+
+Uninote AI records, transcribes, and summarizes your Zoom meetings via a bot that joins as a visible participant.
+
+---
+
+# Adding the App
 
 ## Step 1 — Install from the Zoom App Marketplace
 
 1. Visit the [Zoom App Marketplace](https://marketplace.zoom.us) and search for **"Uninote AI"**.
 2. Click **Add** to install the integration.
-3. Authorize the connection. This grants Uninote AI the minimum permissions needed to join your meetings — see [Permissions & Bot Identifiability](/zoom-integration/zoom-permissions) for the full list.
+3. Authorize the connection. This grants Uninote AI the minimum permissions needed to join your meetings — see [Permissions & Bot Identifiability](#permissions--bot-identifiability) below for the full list.
 4. Sign in to your [Uninote AI account](https://app.uninote.ai) to manage your settings.
 
-## Step 1 — Install from the Zoom App Marketplace
-
-1. Visit the [Zoom App Marketplace](https://marketplace.zoom.us) and search for **"Uninote AI"**.
-2. Click **Add** to install the integration.
-3. Authorize the connection. This grants Uninote AI the minimum permissions needed to join your meetings — see [Permissions & Bot Identifiability](/zoom-integration/zoom-permissions) for the full list.
-4. Sign in to your [Uninote AI account](https://app.uninote.ai) to manage your settings.
-
-## Step 2 — Connect your Zoom account inside Uninote AIStep 2 — Connect your Zoom account inside Uninote AI
+## Step 2 — Connect your Zoom account inside Uninote AI
 
 1. Open Uninote AI and navigate to **Settings \> Integrations**.
 2. Click **Connect Zoom**.
@@ -34,17 +33,166 @@ This page describes how to install the Uninote AI app from the Zoom App Marketpl
   Multiple members of your organization can connect their own Zoom accounts independently. Each member's authorization is scoped to that member only.
 </Note>
 
-1. Open Uninote AI and navigate to **Settings \> Integrations**.
-2. Click **Connect Zoom**.
-3. You will be redirected to Zoom's authorization page.
-4. Review the requested permissions and click **Allow**.
-5. You will be redirected back to Uninote AI with your Zoom account connected.
+## Troubleshooting installation
+
+- **The authorization page shows an error** — make sure you are signed in to the correct Zoom account, then retry from **Settings \> Integrations \> Connect Zoom**.
+- **The connection does not appear after authorizing** — refresh the Integrations page. If it still does not appear, disconnect (if shown) and repeat Step 2.
+- **Still stuck?** Email [**support@uninote.ai**](mailto:support@uninote.ai) and include your account email and a screenshot of the error.
+
+---
+
+# Permissions & Bot Identifiability
+
+Uninote AI's Zoom integration requests only the minimum permissions needed for the bot to join meetings and record on your behalf.
+
+## Zoom OAuth scopes requested
+
+| Scope | Why we need it |
+| --- | --- |
+| `user:read:user` | Retrieve your profile to link your Zoom account to Uninote AI. |
+| `user:read:token` | Retrieve access tokens for the bot to authenticate during a meeting. |
+| `user:read:zak` | Generate ZAK tokens so the bot can join meetings on your behalf. |
+| `meeting:read:meeting` | Read meeting details (number, password format) so the bot joins the correct meeting. |
 
 <Note>
-  Multiple members of your organization can connect their own Zoom accounts independently. Each member's authorization is scoped to that member only.
+  Uninote AI does **not** request any write, delete, or administrative permissions on your Zoom account. We cannot start, modify, or end your meetings, change your account settings, or read other users' data.
 </Note>
 
-## Next stepsNext steps
+## How to identify the bot in a meeting
 
-- Learn what permissions Uninote AI requests and how the bot identifies itself in meetings: [Permissions & Bot Identifiability](/zoom-integration/zoom-permissions).
-- Start recording your first Zoom meeting: [Recording a Zoom Meeting](/zoom-integration/zoom-recording).
+The bot is always identifiable as an automated Uninote AI participant. There are three independent ways participants can tell:
+
+### 1. Display name
+
+The bot's display name in the Zoom participants list always ends with the suffix **"Uninote AI"**. The full pattern is:
+
+```text
+[Your Organization]'s Uninote AI
+```
+
+This suffix is enforced in the bot's code and **cannot be removed** via organization branding or custom-name fields.
+
+### 2. Chat disclosure on join
+
+Immediately after joining and before any audio or video is captured, the bot posts a chat message to all participants stating that the meeting is being recorded. See [Recording consent](#recording-consent) below for the exact wording.
+
+### 3. Zoom's native recording banner
+
+The moment the bot begins raw recording, Zoom's own "This meeting is being recorded" banner appears for all participants. Uninote AI does **not** suppress, auto-accept, or bypass this banner.
+
+---
+
+# Recording a Zoom Meeting
+
+Once your Zoom account is connected, the Uninote AI bot can join your Zoom meetings, capture audio and video, transcribe in real time, and generate an AI summary after the meeting ends.
+
+## How to start recording
+
+### Option 1 — Manual recording
+
+1. In Uninote AI, click **\+ New Meeting**.
+2. Paste your Zoom meeting URL (e.g. `https://zoom.us/j/123456789?pwd=...`).
+3. Click **Start Recording**.
+4. The Uninote AI bot will join your meeting as a participant named **`[Your Organization]'s Uninote AI`**.
+5. The bot automatically starts recording and transcribing.
+
+### Option 2 — Calendar integration
+
+1. Connect your Google Calendar or Microsoft Outlook calendar in **Settings \> Integrations**.
+2. When a calendar event contains a Zoom meeting link, the bot will automatically join at the scheduled start time.
+
+<Note>
+  For recurring meetings, calendar integration is the most reliable option — no manual intervention required for any occurrence.
+</Note>
+
+## Recording consent
+
+You are responsible for obtaining consent from all meeting participants before recording. To make this easier, Uninote AI does the following automatically:
+
+1. **The bot joins as a visible participant** whose display name ends with **"Uninote AI"** — so participants always see who is recording.
+2. **The bot posts a chat message in the meeting before any audio or video is captured**, with this exact wording:
+   > _"This meeting is being recorded and transcribed by \[Your Organization\]'s Uninote AI. By staying in this meeting you acknowledge this."_
+   This wording is fixed in code and cannot be modified by users or organizations.
+3. **Zoom's native "This meeting is being recorded" banner appears** the moment raw recording begins. Uninote AI does not suppress, auto-accept, or bypass this banner. If the host declines recording, no audio or video is captured.
+
+<Warning>
+  The above provides clear notice to participants, but legal compliance with consent laws in your jurisdiction (for example two-party-consent states in the US, or GDPR Article 7 in the EU) remains your responsibility.
+</Warning>
+
+## When the host hasn't given recording permission
+
+When the bot joins, it first checks whether it can already record. If recording isn't yet permitted, it requests local recording privilege from the host via Zoom's standard in-meeting prompt. The bot only begins capturing audio or video after the host approves. If the host declines, the bot stays in the meeting but does not record.
+
+## How recording stops
+
+The bot stops recording and leaves the meeting automatically when any of the following happens:
+
+- The host ends the meeting.
+- All other participants leave (the bot waits 60 seconds before leaving).
+- 10 minutes pass with no speech detected (silence timeout).
+- 4 hours have elapsed since recording started (maximum duration).
+
+You can also stop the bot manually by removing it from the meeting's participants list in your Zoom client.
+
+## What happens after the meeting
+
+1. The recording is uploaded to encrypted cloud storage (AES-256 at rest, AWS Tokyo region).
+2. Transcription with speaker identification is generated (powered by Deepgram).
+3. An AI-powered summary with action items is created (powered by OpenAI).
+4. The complete meeting record appears in your Uninote AI dashboard, typically within 1–2 minutes of meeting end.
+
+---
+
+# Removing the App
+
+There are two separate places where Uninote AI's Zoom integration is registered: **inside your Uninote AI account** (where we store your OAuth tokens and bot launch settings) and **inside Zoom** (where the app is installed on your Zoom account).
+
+To completely remove the integration, you must use **both** of the following steps, in this order.
+
+## Step 1 — Disconnect inside Uninote AI
+
+This cleans up our side.
+
+1. Sign in to [Uninote AI](https://app.uninote.ai).
+2. Go to **Settings \> Integrations \> Zoom**.
+3. Click **Disconnect**.
+
+When you click Disconnect, Uninote AI immediately:
+
+- Deletes your stored OAuth tokens from our database.
+- Calls Zoom's `POST /oauth/revoke` endpoint to invalidate the grant on Zoom's side as well.
+- Stops any scheduled bot launches associated with your account.
+
+## Step 2 — Remove the app from the Zoom App Marketplace
+
+This cleans up Zoom's side.
+
+1. Go to the [Zoom App Marketplace](https://marketplace.zoom.us).
+2. Click **Manage \> Installed Apps**.
+3. Find **Uninote AI** and click **Remove**.
+4. Confirm the removal.
+
+## Why both steps are needed
+
+<Warning>
+  If you only do Step 2 (Marketplace remove) without Step 1 (in-app Disconnect), the OAuth tokens we hold will eventually expire on their own — Zoom access tokens within about 1 hour, refresh tokens within 90 days. During that window, the bot will fail to authenticate on any new meeting. To stop the bot immediately and delete our copy of your tokens, you must do Step 1.
+</Warning>
+
+## Deleting your existing recordings
+
+Disconnecting and removing the app does **not** delete recordings or transcripts you have already created. To delete that data:
+
+- **Individual recordings** — sign in to Uninote AI and delete any recording or transcript directly from your dashboard.
+- **Your entire account and all associated data** — email [**dev@widsley.com**](mailto:dev@widsley.com) with the subject line `Data Deletion Request — [your account email]`. We will delete your account data within 30 days and confirm by email.
+
+## EU / UK data subject rights
+
+If you are located in the EU or UK, you have additional rights under GDPR / UK-GDPR:
+
+- **Access** the personal data we hold about you.
+- **Correct** inaccurate personal data.
+- **Delete** your personal data ("right to be forgotten").
+- **Restrict** or **object to** certain processing of your personal data.
+- **Port** your personal data to another service in a structured, machine-readable format.
+
+To exercise any of these rights, email [**dev@widsley.com**](mailto:dev@widsley.com) with the subject line `GDPR request — [your account email]`. We respond within 30 days as required by GDPR Article 12(3).

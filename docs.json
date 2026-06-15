@@ -65,10 +65,7 @@
           {
             "group": "Zoom 連携",
             "pages": [
-              "ja/uninote-ai-zoom",
-              "ja/file",
-              "ja/recording",
-              "ja/disconecting"
+              "ja/uninote-ai-zoom"
             ]
           },
           {
@@ -163,10 +160,7 @@
           {
             "group": "Zoom Integration",
             "pages": [
-              "en/install-uninote-ai-for-zoom",
-              "en/permission",
-              "en/recording-a-zoom-meeting",
-              "en/disconnecting-and-removing-the-app"
+              "en/install-uninote-ai-for-zoom"
             ]
           },
           {
