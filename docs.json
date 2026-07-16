@@ -123,6 +123,8 @@
               "en/pasuwdoworeteshimattatokihadousurebaiidesuka",
               "en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka",
               "en/rrunotoihadesuka",
+              "en/yz",
+              "en/yzgurpuwosuru",
               "en/she-ding"
             ]
           },
@@ -136,13 +138,9 @@
               "en/taguwosuru",
               "en/forudawosuru",
               "en/niwosuru",
-              "en/botnotononitsuite"
-            ]
-          },
-          {
-            "group": "Zoom Integration",
-            "pages": [
-              "en/install-uninote-ai-for-zoom"
+              "en/botnotononitsuite",
+              "en/wipmonitnoi",
+              "en/nohadonokuraidesuka"
             ]
           },
           {
@@ -155,10 +153,12 @@
           {
             "group": "Plan & Billing",
             "pages": [
-              "en/li-yong-gui-yue",
-              "en/nohadonokuraidesuka",
+              "en/wippurannoto",
               "en/kurejittohadonoyounisaremasuka",
+              "en/sutorjiganishitaradounarimasuka",
               "en/puranwodeshitahadousaremasuka",
+              "en/wipdaungurdoyaisaikurunohasugunisaremasuka",
+              "en/wippuranwodaungurdosurunihadousurebaiidesuka",
               "en/raisensu"
             ]
           },
@@ -166,34 +166,6 @@
             "group": "FAQ",
             "pages": [
               "en/faq-yi-lan"
-            ]
-          },
-          {
-            "group": "WIP Pages",
-            "pages": [
-              "en/wipdaungurdoyaisaikurunohasugunisaremasuka",
-              "en/wipmonitnoi",
-              "en/wippurannoto",
-              "en/wippuranwodaungurdosurunihadousurebaiidesuka",
-              "en/wipyzgurpuwosuru"
-            ]
-          },
-          {
-            "group": "Other",
-            "pages": [
-              "en/sutorjiganishitaradounarimasuka",
-              "en/puraibashporish",
-              "en/yz"
-            ]
-          },
-          {
-            "group": "Uncategorized",
-            "pages": [
-              "en/daungurdoyaisaikurunohasugunisaremasuka",
-              "en/monitnoi",
-              "en/purannoto",
-              "en/puranwodaungurdosurunihadousurebaiidesuka",
-              "en/yzgurpuwosuru"
             ]
           }
         ]
