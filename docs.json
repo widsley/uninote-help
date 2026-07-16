@@ -39,6 +39,8 @@
               "ja/pasuwdoworeteshimattatokihadousurebaiidesuka",
               "ja/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka",
               "ja/rrunotoihadesuka",
+              "ja/yz",
+              "ja/yzgurpuwosuru",
               "ja/she-ding"
             ]
           },
@@ -52,7 +54,9 @@
               "ja/taguwosuru",
               "ja/forudawosuru",
               "ja/niwosuru",
-              "ja/botnotononitsuite"
+              "ja/botnotononitsuite",
+              "ja/wipmonitnoi",
+              "ja/nohadonokuraidesuka"
             ]
           },
           {
@@ -71,10 +75,12 @@
           {
             "group": "プラン・請求",
             "pages": [
-              "ja/li-yong-gui-yue",
-              "ja/nohadonokuraidesuka",
+              "ja/wippurannoto",
               "ja/kurejittohadonoyounisaremasuka",
+              "ja/sutorjiganishitaradounarimasuka",
               "ja/puranwodeshitahadousaremasuka",
+              "ja/wipdaungurdoyaisaikurunohasugunisaremasuka",
+              "ja/wippuranwodaungurdosurunihadousurebaiidesuka",
               "ja/raisensu"
             ]
           },
@@ -85,32 +91,8 @@
             ]
           },
           {
-            "group": "WIPページ",
-            "pages": [
-              "ja/wipdaungurdoyaisaikurunohasugunisaremasuka",
-              "ja/wipmonitnoi",
-              "ja/wippurannoto",
-              "ja/wippuranwodaungurdosurunihadousurebaiidesuka",
-              "ja/wipyzgurpuwosuru"
-            ]
-          },
-          {
             "group": "その他",
-            "pages": [
-              "ja/sutorjiganishitaradounarimasuka",
-              "ja/puraibashporish",
-              "ja/yz"
-            ]
-          },
-          {
-            "group": "未分類",
-            "pages": [
-              "ja/daungurdoyaisaikurunohasugunisaremasuka",
-              "ja/monitnoi",
-              "ja/purannoto",
-              "ja/puranwodaungurdosurunihadousurebaiidesuka",
-              "ja/yzgurpuwosuru"
-            ]
+            "pages": []
           }
         ]
       },
