@@ -85,6 +85,15 @@
             ]
           },
           {
+            "group": "デスクトップアプリ",
+            "pages": [
+              "file",
+              "file-1",
+              "file-2",
+              "untitled-page"
+            ]
+          },
+          {
             "group": "よくある質問",
             "pages": [
               "ja/faq-yi-lan"
