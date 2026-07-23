@@ -87,10 +87,10 @@
           {
             "group": "デスクトップアプリ",
             "pages": [
-              "file",
-              "file-1",
-              "file-2",
-              "untitled-page"
+              "ja/file",
+              "ja/file-1",
+              "ja/file-2",
+              "ja/untitled-page"
             ]
           },
           {
