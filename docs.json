@@ -94,6 +94,12 @@
             ]
           },
           {
+            "group": "モバイルアプリ",
+            "pages": [
+              "untitled-page"
+            ]
+          },
+          {
             "group": "よくある質問",
             "pages": [
               "ja/faq-yi-lan"
