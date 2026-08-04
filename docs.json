@@ -85,15 +85,6 @@
             ]
           },
           {
-            "group": "デスクトップアプリ",
-            "pages": [
-              "ja/file",
-              "ja/file-1",
-              "ja/file-2",
-              "ja/untitled-page"
-            ]
-          },
-          {
             "group": "モバイルアプリ",
             "pages": [
               "untitled-page",
@@ -101,6 +92,15 @@
               "untitled-page-3",
               "untitled-page-4",
               "untitled-page-5"
+            ]
+          },
+          {
+            "group": "デスクトップアプリ",
+            "pages": [
+              "ja/file",
+              "ja/file-1",
+              "ja/file-2",
+              "ja/untitled-page"
             ]
           },
           {
