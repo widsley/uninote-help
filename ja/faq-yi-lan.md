@@ -29,3 +29,9 @@ title: FAQ一覧
 * [プランをダウングレードするにはどうすればいいですか？](/ja/puranwodaungurdosurunihadousurebaiidesuka)
 * [ダウングレードや支払いサイクルの変更はすぐに反映されますか？](/ja/daungurdoyaisaikurunohasugunisaremasuka)
 * [ストレージが上限に達したらどうなりますか？](/ja/sutorjiganishitaradounarimasuka)
+
+## 連携
+
+- S[Salesforceの商談を検索しても表示されないのはなぜですか？](https://help.uninote.ai/ja/salesforce-2)
+- Salesforceの行動の［種別］が「訪問」のままになるのはなぜですか？
+- 文字起こしをSalesforceに連携できますか？
