@@ -32,6 +32,6 @@ title: FAQ List
 
 ## Integration
 
-- [Why are Salesforce opportunities not displayed when searched?](https://help.uninote.ai/ja/salesforce-2)
-- Why does the type of Salesforce action remain as "Visit"?
-- Can transcriptions be integrated with Salesforce?
+- [Why are Salesforce opportunities not showing up when searched?](https://help.uninote.ai/ja/salesforce-2)
+- [Why does the Salesforce action type remain as "Visit"?](https://help.uninote.ai/ja/salesforce-3)
+- [Can transcriptions be integrated with Salesforce?](https://help.uninote.ai/ja/salesforce-4)
