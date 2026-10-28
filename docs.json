@@ -175,14 +175,6 @@
             ]
           },
           {
-            "group": "連携",
-            "pages": [
-              "ja/salesforce",
-              "ja/hub-spot",
-              "ja/salesforce-2"
-            ]
-          },
-          {
             "group": "Plan & Billing",
             "pages": [
               "en/wippurannoto",

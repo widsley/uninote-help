@@ -2,14 +2,14 @@
 title: FAQ List
 ---
 
-<Note>This is a compilation of frequently asked questions about Uninote, categorized for your convenience.</Note>
+<Note>This is a collection of frequently asked questions about Uninote, categorized for your convenience.</Note>
 
 ## Account & Login
 
 * [How can I change my account name?](/en/akauntonowosurunihadousurebaiidesuka)
 * [What should I do if I forget my password?](/en/pasuwdoworeteshimattatokihadousurebaiidesuka)
 * [How do I log in after receiving an invitation?](/en/woketaradouyatteroguinshimasuka)
-* [Can I set a password if I log in with a Google / Microsoft account?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
+* [If I log in with a Google / Microsoft account, can I set a password?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
 * [What are the types and differences of roles (permissions)?](/en/rrunotoihadesuka)
 
 ## AI & Format
@@ -27,5 +27,11 @@ title: FAQ List
 * [How are credits consumed?](/en/kurejittohadonoyounisaremasuka)
 * [How is the pricing calculated if I change my plan midway?](/en/puranwodeshitahadousaremasuka)
 * [How can I downgrade my plan?](/en/puranwodaungurdosurunihadousurebaiidesuka)
-* [Will downgrades and changes to the payment cycle be reflected immediately?](/en/daungurdoyaisaikurunohasugunisaremasuka)
+* [Will downgrades or changes to the payment cycle be reflected immediately?](/en/daungurdoyaisaikurunohasugunisaremasuka)
 * [What happens when storage reaches its limit?](/en/sutorjiganishitaradounarimasuka)
+
+## Integration
+
+- [Why are Salesforce opportunities not displayed when searched?](https://help.uninote.ai/ja/salesforce-2)
+- Why does the type of Salesforce action remain as "Visit"?
+- Can transcriptions be integrated with Salesforce?
