@@ -70,7 +70,8 @@
             "group": "連携",
             "pages": [
               "ja/uninote-ai-zoom",
-              "salesforce"
+              "salesforce",
+              "hub-spot"
             ]
           },
           {
