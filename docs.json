@@ -70,11 +70,11 @@
             "group": "連携",
             "pages": [
               "ja/uninote-ai-zoom",
-              "salesforce",
-              "hub-spot",
-              "salesforce-2",
-              "salesforce-3",
-              "salesforce-3"
+              "ja/salesforce",
+              "ja/hub-spot",
+              "ja/salesforce-2",
+              "ja/salesforce-3",
+              "ja/salesforce-3"
             ]
           },
           {
@@ -177,9 +177,9 @@
           {
             "group": "連携",
             "pages": [
-              "salesforce",
-              "hub-spot",
-              "salesforce-2"
+              "ja/salesforce",
+              "ja/hub-spot",
+              "ja/salesforce-2"
             ]
           },
           {
