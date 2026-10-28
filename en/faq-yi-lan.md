@@ -2,14 +2,14 @@
 title: FAQ List
 ---
 
-<Note>This document summarizes frequently asked questions about Uninote categorized by topic.</Note>
+<Note>This is a compilation of frequently asked questions about Uninote, categorized for your convenience.</Note>
 
 ## Account & Login
 
-* [How can I change the name of my account?](/en/akauntonowosurunihadousurebaiidesuka)
+* [How can I change my account name?](/en/akauntonowosurunihadousurebaiidesuka)
 * [What should I do if I forget my password?](/en/pasuwdoworeteshimattatokihadousurebaiidesuka)
 * [How do I log in after receiving an invitation?](/en/woketaradouyatteroguinshimasuka)
-* [If I log in with a Google / Microsoft account, can I set a password?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
+* [Can I set a password if I log in with a Google / Microsoft account?](/en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka)
 * [What are the types and differences of roles (permissions)?](/en/rrunotoihadesuka)
 
 ## AI & Format
@@ -18,7 +18,7 @@ title: FAQ List
 
 ## Recording & Meetings
 
-* [How to enter the recording Bot and the maximum recording time](/en/botnotononitsuite)
+* [How to join the recording Bot and the maximum recording time](/en/botnotononitsuite)
 * [What is the maximum recording time?](/en/nohadonokuraidesuka)
 
 ## Plans & Pricing
