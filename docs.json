@@ -67,9 +67,10 @@
             ]
           },
           {
-            "group": "Zoom 連携",
+            "group": "連携",
             "pages": [
-              "ja/uninote-ai-zoom"
+              "ja/uninote-ai-zoom",
+              "salesforce"
             ]
           },
           {

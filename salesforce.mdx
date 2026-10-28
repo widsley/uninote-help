@@ -1,0 +1,86 @@
+---
+title: "Salesforceと連携する"
+---
+
+<Info>
+  Uninoteのミーティングを、Salesforceの活動（ToDoまたは行動）として記録するための設定手順です。
+</Info>
+
+### 操作の前に確認すること
+
+- Uninoteの組織の管理者権限と、Salesforceの管理者権限が必要です。
+- 連携の設定は組織ごとに行います。ある組織で設定を変更しても、ほかの組織には影響しません。
+- 連携の対象はミーティングです。通話は対象外です。
+- Uninoteでの検索や書き込みは、接続したSalesforceユーザーの権限で行われます。そのユーザーが参照できないレコードは、Uninoteにも表示されません。
+
+---
+
+### 1. Salesforceにパッケージをインストールする
+
+Salesforceの管理者が、組織ごとに1回だけ行います。
+
+1. 次のURLを開きます。<br />[https://login.salesforce.com/packaging/installPackage.apexp?p0=04tdL000000l2xdQAA](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tdL000000l2xdQAA)
+2. Salesforceの画面の案内に従って、インストールを完了します。
+
+<Warning>
+  パッケージをインストールする前にSalesforceに接続すると、「SalesforceがUninoteアプリを認識できませんでした」と表示され、接続できません。先にパッケージをインストールしてください。
+</Warning>
+
+### 2. Salesforceに接続する
+
+1. Uninoteの組織設定で、Salesforce連携の画面を開きます。<br />[https://app.uninote.ai/organization/salesforce](https://app.uninote.ai/organization/salesforce)
+2. ［Salesforceに接続］を押します。
+3. 接続するSalesforceの環境を選択します。
+   - 本番組織の場合：［本番環境 ([login.salesforce.com](http://login.salesforce.com))］
+   - Sandboxの場合：［Sandbox ([test.salesforce.com](http://test.salesforce.com))］
+4. Salesforceの画面が表示されたら、ログインしてアクセスを許可します。
+
+接続が完了すると、接続先の組織名、認証ユーザー、環境が表示されます。
+
+<Info>
+  接続先の環境は、Uninoteではなく、Salesforceの環境を選択します。
+</Info>
+
+### 3. アクティビティ同期を設定する
+
+設定は、［項目マッピング］［値マッピング］［テストと保存］の3ステップです。
+
+#### 項目マッピング
+
+1. ［オブジェクトタイプ］で、ミーティングを書き込むSalesforceのオブジェクトを選択します。
+   - ToDo
+   - 行動
+2. Uninoteの各項目に、書き込み先のSalesforceの項目を選択します。
+   - 設定できるUninoteの項目：会議タイトル、会議ID、要約、文字起こし、参加者、タグ、フォルダ、共有URL、アクティビティ種別など
+   - 選択肢には、［オブジェクトタイプ］で選択したオブジェクトで作成できる項目が表示されます。カスタム項目も選択できます。
+
+<Info>
+  項目マッピングを設定しない場合は、パッケージに含まれるUninote用の項目（`Uninote_*__c`）に書き込まれます。要約は、初期設定で活動の［説明］に書き込まれます。
+</Info>
+
+#### 値マッピング
+
+Uninoteの値を、Salesforceの値に置き換えます。次の3つを設定できます。
+
+- ［アクティビティ種別］
+- ［タグ］
+- ［ユーザー］
+
+#### テストと保存
+
+設定した項目に書き込めるかテストし、問題がなければ設定を保存します。
+
+<Warning>
+  次の場合は、テストに失敗します。
+
+  - Salesforceにパッケージがインストールされていない
+  - 接続したSalesforceユーザーに、書き込み先の項目の編集権限がない<br />\</aside>
+</Warning>
+
+---
+
+### Salesforceとの連携を解除した場合
+
+- 組織全体で、Salesforceへの同期が停止します。
+- これまでに連携したミーティングとSalesforceのリンクは、読み取り専用の履歴として残ります。
+- 項目マッピングと値マッピングの設定は保持されます。
