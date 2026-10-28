@@ -1,0 +1,24 @@
+---
+title: "Salesforceの行動の［種別］が「訪問」のままになるのはなぜですか？"
+---
+
+<Info>
+  Salesforceの行動の［種別］に表示される「訪問」は、Salesforce側の既定値です。Uninoteの値を書き込むには、項目と値の対応づけを設定します。
+</Info>
+
+## A. 初期設定では、UninoteはSalesforceの標準項目［種別］に書き込みません
+
+［種別］にUninoteのアクティビティ種別を書き込むには、Salesforce連携の設定画面で次のように設定します。
+
+1. ［項目マッピング］で、［アクティビティ種別］の書き込み先に標準項目の［種別］を選択します。
+2. ［値マッピング］で、Uninoteのアクティビティ種別の値ごとに、Salesforceの選択リスト値を選択します。
+
+<Warning>
+  Uninoteのアクティビティ種別は、会議のプラットフォームから自動で判定されます。Zoom、Google Meet、Microsoft Teams、Chrome拡張機能、Outlookの会議はすべて同じ値になるため、会議ごとに種別を選び分けられません。
+</Warning>
+
+---
+
+### 関連ページ
+
+- [Salesforceと連携する](https://app.mintlify.com/uninote/uninote/&#x7E;/Salesforce%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B-d8d85a59-f875-42ad-8b98-fc2c6971bdec)
