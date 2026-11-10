@@ -26,6 +26,9 @@ description: Uninote のご利用ガイドへようこそ
   </Card>
 </CardGroup>
 
+<Card title="トラブルシューティング" icon="badge-check" href="ja/trouble-shooting">
+</Card>
+
 ## サポートにお問い合わせ
 
 解決できない問題がありましたら、画面右下のチャットボタンからお問い合わせください（Zendesk 上の Uninote サポートチームに直接届きます）。
