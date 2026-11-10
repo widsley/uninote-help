@@ -36,7 +36,6 @@
             "pages": [
               "ja/akauntonowosurunihadousurebaiidesuka",
               "ja/woketaradouyatteroguinshimasuka",
-              "ja/pasuwdoworeteshimattatokihadousurebaiidesuka",
               "ja/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka",
               "ja/rrunotoihadesuka",
               "ja/yz",
@@ -118,6 +117,12 @@
           {
             "group": "その他",
             "pages": []
+          },
+          {
+            "group": "トラブルシューティング",
+            "pages": [
+              "ja/pasuwdoworeteshimattatokihadousurebaiidesuka"
+            ]
           }
         ]
       },
