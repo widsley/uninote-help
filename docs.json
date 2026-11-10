@@ -150,7 +150,6 @@
             "pages": [
               "en/akauntonowosurunihadousurebaiidesuka",
               "en/woketaradouyatteroguinshimasuka",
-              "en/pasuwdoworeteshimattatokihadousurebaiidesuka",
               "en/google-microsoft-akauntoderoguinshitapasuwdohadekimasuka",
               "en/rrunotoihadesuka",
               "en/yz",
@@ -197,6 +196,12 @@
             "group": "FAQ",
             "pages": [
               "en/faq-yi-lan"
+            ]
+          },
+          {
+            "group": "トラブルシューティング",
+            "pages": [
+              "en/pasuwdoworeteshimattatokihadousurebaiidesuka"
             ]
           }
         ]
