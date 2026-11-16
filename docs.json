@@ -7,6 +7,11 @@
     "dark": "/logo-white.png"
   },
   "favicon": "/icon.png",
+  "thumbnails": {
+    "fonts": {
+      "family": "Noto Sans JP"
+    }
+  },
   "colors": {
     "primary": "#5B4CFF"
   },
