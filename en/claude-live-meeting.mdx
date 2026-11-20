@@ -28,7 +28,6 @@ With this setup, Claude checks the record during the meeting. You can find a mis
 - **A way to record the meeting**: when you record with one of these, the transcript is saved while the meeting is in progress.
   - Desktop app (Uninote Recording)
   - Mobile app
-  - Chrome extension
   - Recording bot (Google Meet, Microsoft Teams)
 - **Claude Code**: an AI assistant from Anthropic. To install it and sign up, follow Anthropic's guide.<br />[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
 - **A personal access token**: the key that lets Claude read your Uninote data. Issue it with the steps below.
@@ -149,6 +148,9 @@ In the **Personal Access Tokens** list, click **Revoke** for the token. Claude s
 
 **Can Claude read meetings in another organization?**<br />
 A token belongs to the user and the organization that issued it. To read meetings in another organization, switch to that organization and issue a token there.
+
+**What happens when the person who issued the token leaves the organization?**<br />
+The token for that organization stops working. Claude can no longer read that organization's meetings.
 
 ### Related pages
 

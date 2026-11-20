@@ -28,7 +28,6 @@ description: "UninoteとClaude CodeをMCPで接続し、会議の途中で、い
 - **会議の録音手段**：次のいずれかで録音した会議は、録音中に文字起こしが保存されます。
   - デスクトップアプリ（Uninote Recording）
   - モバイルアプリ
-  - Chrome拡張機能
   - 録画Bot（Google Meet・Microsoft Teams）
 - **Claude Code**：Anthropicが提供するAIアシスタントです。インストールと契約は、Anthropicの案内に従ってください。<br />[https://code.claude.com/docs/ja/overview](https://code.claude.com/docs/ja/overview)
 - **パーソナルアクセストークン**：ClaudeがUninoteのデータを読むための鍵です。下の手順で発行します。
@@ -149,6 +148,9 @@ claude mcp add --transport http uninote https://prod-api.uninote.ai/mcp --scope 
 
 **別の組織の会議も読めますか。**<br />
 トークンは、発行したユーザーと組織に紐づきます。別の組織の会議を読む場合は、その組織に切り替えてからトークンを発行してください。
+
+**トークンを発行した人が組織から外れたら、どうなりますか。**<br />
+その組織のトークンは使えなくなります。Claudeは、その組織の会議を読めなくなります。
 
 ### 関連ページ
 
