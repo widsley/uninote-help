@@ -7,6 +7,7 @@
 - [共有した会議を同僚が開けない](#cant-open-shared-meeting)
 - [カレンダーを連携したのに、ボットが会議に入らない](#bot-not-joining-admin)
 - [メンバーがログインできない](#admin-login-message)
+- [フリーメールアドレスで新規登録できない](#free-email-signup)
 
 ## 原因と対処
 
@@ -16,6 +17,7 @@
 ![2026111](https://mintcdn.com/uninote/B7w99hb4XqnjN_tJ/images/2026111.png?fit=max&amp;auto=format&amp;n=B7w99hb4XqnjN_tJ&amp;q=85&amp;s=d9a8d0da48ecc5329484170defadb73a)
 
 - <a id="joined-other-org"></a>**別の組織に入ってしまう**：招待されたメールアドレスと同じアドレスでログインしてもらってください。組織から外したメンバーをもう一度入れるときは、新しく招待を送ります。
+- <a id="free-email-signup"></a>**フリーメールアドレスで新規登録できない**：Gmail・Yahoo!メールなどのフリーメールアドレスでは、招待なしで新しくアカウントや組織を作成できません。メンバーを招待し、招待メールのリンクから登録してもらってください。すでにアカウントをお持ちの方は、これまでどおりログインできます。
 - <a id="cant-open-shared-meeting"></a>**共有した会議が開けない**：会議の公開範囲は、最初は「プライベート」です。「ミーティングを共有」で相手を追加するか、一般アクセスを「組織」に変えてください。オーナーと管理者は、組織内のすべての会議を見られます。組織外の方からアクセスリクエストが届いた場合は、承認すると閲覧できるようになります。
   ![Admin 03 Share Dialog](https://mintcdn.com/uninote/B7w99hb4XqnjN_tJ/images/admin-03-share-dialog.png?fit=max&amp;auto=format&amp;n=B7w99hb4XqnjN_tJ&amp;q=85&amp;s=599d8c98757c48ffe6a468fbf9ad71d4)
   ![Admin 04 Share General Access Options](https://mintcdn.com/uninote/B7w99hb4XqnjN_tJ/images/admin-04-share-general-access-options.png?fit=max&amp;auto=format&amp;n=B7w99hb4XqnjN_tJ&amp;q=85&amp;s=178a42f13086396e2a19b5472720ea07)
@@ -31,6 +33,8 @@
 - 「このミーティングにアクセスする必要があります」→ 「アクセスを要請」を押すか、権限のあるアカウントに切り替えてください。
 - <a id="admin-login-message"></a>「メールアドレスまたはパスワードが正しくありません。Google・Microsoft で登録された方は、下のボタンからログインしてください。」→ 登録したときと同じ方法でログインしてもらってください。
 - 「Googleカレンダーの接続を開始できませんでした。もう一度お試しください。」→ 連携をやり直してください。
+- 「フリーメールアドレス（Gmail、Yahoo!メールなど）ではアカウントを作成できません。会社のメールアドレスでご登録ください。組織から招待された方は、招待メールのリンクからご登録ください。」→ 新規登録画面とログイン画面に表示されます。会社のメールアドレスで登録するか、招待メールのリンクから登録してもらってください。Google・Microsoft で登録しようとした場合も、ログイン画面にこのメッセージが表示されます。
+- 「フリーメールアドレス（Gmail、Yahoo!メールなど）では組織を作成できません。会社のメールアドレスをご利用ください。組織から招待された方は、招待メールのリンクからご参加ください。」→ 組織の作成画面に表示されます。招待メールのリンクから参加してもらってください。
 
 ## 必要な環境
 
@@ -43,6 +47,7 @@
 - 組織ごとにログイン方法（メール／Google／Microsoft）を限定する設定はありません。
 - パスワードは8文字以上で、数字を1文字以上含める必要があります。
 - Google でログインしたアカウントと、同じ Gmail アドレスでパスワード登録したアカウントは、別のアカウントとして扱われます。
+- 招待なしで新規登録できないフリーメールアドレスのドメイン：gmail.com、googlemail.com、yahoo.com、yahoo.co.jp、yahoo.co.id、ymail.com、hotmail.com、hotmail.co.jp、outlook.com、outlook.jp、live.com、live.jp、msn.com、icloud.com、me.com、mac.com、aol.com、zoho.com、protonmail.com、proton.me、mail.com、gmx.com、yandex.com、docomo.ne.jp、ezweb.ne.jp、au.com、softbank.ne.jp、i.softbank.jp
 
 ## お問い合わせのときにお送りいただきたい情報
 
@@ -58,6 +63,7 @@ Google Meet・Microsoft Teams・Zoom の会議にボットが参加し、録画�
 ## よくあるお問い合わせ
 
 - [ボットが会議に入ってこない](#bot-not-admitted)
+- [Google Meet がボットの参加を拒否した](#bot-blocked-by-google)
 - [先に入室したのに、ボットが来ない](#bot-arrival-timing)
 - [遅れて入室したら、ボットがもう退出していた](#bot-already-left)
 - [直前に作った予定や、開始後に変えた予定にボットが来ない](#schedule-changed-late)
@@ -66,6 +72,7 @@ Google Meet・Microsoft Teams・Zoom の会議にボットが参加し、録画�
 ## 原因と対処
 
 - <a id="bot-not-admitted"></a>**入室が承認されていない**：ボットは「（組織名）'s Notetaker」という名前で入室をリクエストします。Google Meet では、約10分誰も応答しないと自動で打ち切られます。承認の通知が出るのは主催者と招待済みの参加者だけなので、主催者の画面で承認してください。
+- <a id="bot-blocked-by-google"></a>**Google Meet がボットの参加を拒否した**：2026年11月11日ごろから、Google Meet がボットの参加を拒否することが増えています。拒否が5回に達すると、ボットは入室をあきらめて終了します。この場合、会議は録画されません。会議は「Botが入室できませんでした」として残り、「未入室会議を表示」で確認できます。2026年11月19日より前は、ボットが約3時間待ったあとに会議が削除され、一覧に何も残りませんでした。
 - <a id="bot-arrival-timing"></a>**ボットが来る時刻**：ボットは予定開始の約3分前に起動し、1〜2分前に入室をリクエストします。早く入室しても、ボットが早く来ることはありません。
 - **ボットを呼び直したい**：ミーティング画面の「新しいミーティング」に会議URLを貼ると、ボットを呼べます。
   ![Bot 02 New Meeting Url](https://mintcdn.com/uninote/uCpBye_v0MyThHoy/images/bot-02-new-meeting-url.png?fit=max&amp;auto=format&amp;n=uCpBye_v0MyThHoy&amp;q=85&amp;s=f7b8393137b3203f2f6f89dce8cb8cf5)
@@ -77,7 +84,7 @@ Google Meet・Microsoft Teams・Zoom の会議にボットが参加し、録画�
 
 ## 表示されるメッセージ
 
-- 「Botが入室できませんでした」：承認されなかった会議、または誰もいなかった会議です。通常の一覧には出ません。期間の絞り込みの横にある「未入室会議を表示」で確認できます。
+- 「Botが入室できませんでした」：承認されなかった会議、誰もいなかった会議、または Google Meet がボットの参加を拒否した会議です。通常の一覧には出ません。期間の絞り込みの横にある「未入室会議を表示」で確認できます。
   ![Bot 01 Meetings Not Admitted Toggle](https://mintcdn.com/uninote/uCpBye_v0MyThHoy/images/bot-01-meetings-not-admitted-toggle.png?fit=max&amp;auto=format&amp;n=uCpBye_v0MyThHoy&amp;q=85&amp;s=9c5e52b5ce4dae377425e7946ca03cb8)
 
 - 「ボットは既にこのミーティングに割り当てられています。」：同じ組織の誰かのボットが、すでに入っています。録画はその会議にまとめられ、あなたも参加者として追加されます。
@@ -149,6 +156,7 @@ Google Meet・Microsoft Teams・Zoom の会議にボットが参加し、録画�
 - アップデートは自動でダウンロードされ、「再起動してアップデート」を押すか、アプリを終了したときに反映されます。
 - Chrome のタブ単位では録画できません。ウィンドウか全画面を選んでください。
 - 録画できる長さは最大3時間です。
+- オフラインで録画し、あとからアップロードした会議は、録画を始めた日の会議として一覧に並び、期間の絞り込みでも録画を始めた日が使われます。ただし、Web の一覧と会議の詳細に表示される日時は、アップロードした日時のままです。録画を始めてから7日を過ぎてアップロードした場合は、アップロードした日が使われます。2026年11月19日より前にアップロードした会議は変わりません。
 
 ## お問い合わせのときにお送りいただきたい情報
 
@@ -201,6 +209,7 @@ Google Meet・Microsoft Teams・Zoom の会議にボットが参加し、録画�
 
 - オフラインのときと一時停止中は、リアルタイムの文字起こしが止まります。
 - 録音中の音声を、ほかの人がリアルタイムで聞く機能はありません。
+- オフラインで録音し、あとからアップロードした会議は、録音を始めた日の会議として一覧に並び、期間の絞り込みでも録音を始めた日が使われます。ただし、Web の一覧と会議の詳細に表示される日時は、アップロードした日時のままです。録音を始めてから7日を過ぎてアップロードした場合は、アップロードした日が使われます。2026年11月19日より前にアップロードした会議は変わりません。
 - 多要素認証には対応していません。
 
 ## お問い合わせのときにお送りいただきたい情報

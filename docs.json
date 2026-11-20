@@ -46,8 +46,10 @@
               "ja/yz",
               "ja/yzgurpuwosuru",
               "ja/she-ding",
+              "ja/carrier-recording-auto-delete",
               "ja/pasuwdoworeteshimattatokihadousurebaiidesuka",
-              "ja/account-deletion"
+              "ja/account-deletion",
+              "ja/organization-deletion"
             ]
           },
           {
@@ -162,6 +164,7 @@
               "en/yz",
               "en/yzgurpuwosuru",
               "en/she-ding",
+              "en/carrier-recording-auto-delete",
               "en/pasuwdoworeteshimattatokihadousurebaiidesuka",
               "en/account-deletion"
             ]
